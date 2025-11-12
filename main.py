@@ -193,7 +193,6 @@ elif selected == "Input Teks":
         st.markdown("---")
         st.subheader("🔍 Ringkasan Preprocessing")
 
-        # safety: pastikan key tersedia
         original = steps.get("original", "")
         tokenized = steps.get("tokenized", [])
         stopword_removed = steps.get("stopword_removed", [])
