@@ -16,6 +16,7 @@ from streamlit_option_menu import option_menu
 # NLTK DOWNLOAD
 # -------------------------------------------------------
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True) 
 nltk.download('stopwords', quiet=True)
 
 # -------------------------------------------------------
