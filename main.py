@@ -13,8 +13,8 @@ import seaborn as sns
 # =========================================================
 # LOAD MODEL
 # =========================================================
-svm_model = joblib.load("svm_best_model.pkl")
-w2v_model = Word2Vec.load("word2vec_embedding (1).model")   # HARUS MODEL YANG DIPAKAI SAAT TRAINING
+svm_model = joblib.load("svm_best_model (1).pkl")
+w2v_model = Word2Vec.load("word2vec_embedding (2).model")   # HARUS MODEL YANG DIPAKAI SAAT TRAINING
 
 # =========================================================
 # LOAD SLANGWORDS & STOPWORDS
