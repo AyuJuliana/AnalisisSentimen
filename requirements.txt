@@ -11,3 +11,4 @@ joblib
 gensim
 plotly
 streamlit-option-menu
+wordcloud
